@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+/* Estilo Site Vereador */
+
+/* Paleta de Cores*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+:root {
+--cor0: #0000ff;
+--cor1: #6495ed;
+--cor2: #4169e1; 
+--cor3: #1e90ff;
+--cor4: #00bfff;
+--cor5: #87cefa;
+--fonte-padrao: Arial, verdana, helvetica, sans-serif;
+--fonte-destaque: 'Poppins, cursive';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-destaque);
+    line-height: 1.5;
+}
+
+#cabecalho {
+    width: 100%;
+    background-color:#00bfff;
+    color: #fff;
+    padding: 10px 0;
+    text-align: right;
+}
+
+#cabecalho img {
+    width: 200px;
+    position: relative;
+    left: -600px;
+}
+
+#cabecalho div {
+    position: absolute;
+    top: 35%;
+    right: 15%;
+}
+
+#cabecalho nav a {
+    margin-right: 20px;
+    font-size: 18px;
+    font-family:var(--fonte-destaque);
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 3px 5px 2px #000000;
+    letter-spacing: 2px;
+    color:#fff;
+}
+
+a:hover {
+    background-color: #1e90ff;
+}
+
+nav {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #1e90ff;
+}
+
+
+main {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+#sobre div h3 {
+    text-align: center;
+    font-size: 18px;
+    background-color: #87cefa;
+}
+
+#sobre h2 {
+    text-align: center;
+    font-size: 25px;
+    font-family: var(--fonte-destaque);
+    font-weight: 700;
+    color: #000000;
+} 
+
+#sobre p {
+    text-align: center;
+    font-size: 18px;
+    font-family: var(--fonte-destaque);
+    font-weight: 700;
+    color: #000000;
+}
+
+#sobre img {
+    max-width: 100%;
+    position: relative;
+    left: 15%;
+}
+
+#projetos article {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: var(--fonte-destaque);
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #87cefa;
+}
+
+#projetos article a {
+    margin-right: 20px;
+    font-size: 18px;
+    font-family:var(--fonte-destaque);
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+    letter-spacing: 2px;
+    color:#0000ff;
+}
+
+footer {
+    text-align: center;
+    background-color: #00bfff;
+    color: #fff;
+    padding: 10px 0;
+    text-decoration: bold;
+    font-size: 18px;
+}
